@@ -1,4 +1,4 @@
-# 20 - Video Games Sales
+# 020 - Video Games Sales
 Datasets from: [Video Game Sales](https://www.kaggle.com/gregorut/videogamesales)
 
 ## Objective
