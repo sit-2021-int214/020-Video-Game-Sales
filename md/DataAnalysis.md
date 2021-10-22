@@ -1,7 +1,7 @@
 # Define Question and Data Analysis with Descriptive Statistics
 
 Datasets from: [Video Game Sales](https://www.kaggle.com/gregorut/videogamesales)
-Code : [CleaningAndDataAnalysis.R](../code/CleaningAndDataAnalysis.R)
+Code : [DataAnalysis.R](../code/DataAnalysis.R)
 
 ## Define Questions
 
