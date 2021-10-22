@@ -36,9 +36,9 @@ Video Games Sales datasets นี้เป็นชุดข้อมูลท�
 
 ### Important Files in Repository
 
-- [CleaningAndEDA.R](./code/CleaningAndDataAnalysis.R) : Cleaning And EDA
+- [CleaningAndDataAnalysis.R](./code/CleaningAndDataAnalysis.R) : Cleaning And Analysis
 - [vgsales.csv](./resources/vgsales.csv): Original Dataset
-- [vgsales_clean.csv](./resources/vgsales_clean.csv): Clean Dataset
+- [vgsales_clean.csv](./resources/vgsales_clean.csv): Cleaned Dataset
 
 ### References
 
@@ -56,7 +56,8 @@ Video Games Sales datasets นี้เป็นชุดข้อมูลท�
 |1|มนัสสินี เวชวิฐาน|63130500096|
 |2|รวิศ น้อยวงศ์|63130500100|
 |3|สิริวัฒก์ ใจยั่งยืน|63130500120|
-|4|กันตภณ ตันตราภรณ์พงษ์|63130500138|
+|4|อสมาภรณ์ ปลาดศรี|63130500135|
+|5|กันตภณ ตันตราภรณ์พงษ์|63130500138|
 
 ### Instructor
 
