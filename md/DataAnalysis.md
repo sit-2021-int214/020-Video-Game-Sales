@@ -37,6 +37,7 @@ summarize(max_globalsales = max(Global_Sales))
 ```
 
 ผลลัพธ์
+
 ```R
 # A tibble: 12 x 2
    Genre        max_globalsales

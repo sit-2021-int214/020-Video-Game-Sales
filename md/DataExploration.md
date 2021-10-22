@@ -9,7 +9,7 @@ Code : [DataExploration.R](../code/DataExploration.R)
 
 ## Step 2). Search datasets from Kaggle
 
-พวกเราจึงได้หาข้อมูลที่เกี่ยวกับการเก็บข้อมูลต่าง ๆ เกี่ยวกับเกมคอนโซลที่มียอดขายมากกว่า 100,000 ชุดจาก [kaggle](https://www.kaggle.com/gregorut/videogamesales) <br>
+พวกเราจึงได้หาข้อมูลที่เกี่ยวกับการเก็บข้อมูลต่าง ๆ เกี่ยวกับเกมคอนโซลที่มียอดขายมากกว่า 100,000 ชุดจาก [kaggle](https://www.kaggle.com/gregorut/videogamesales)
 
 ##### ติดตั้ง Library ที่ใช้
 
@@ -39,7 +39,7 @@ games <- as_tibble(read.csv("https://raw.githubusercontent.com/sit-2021-int214/0
 
 ## Data Exploration
 
-Video Games Sales datasets เป็นชุดข้อมูลที่รวบรวมข้อมูลเกี่ยวกับเกมคอนโซล มีการจัดแบ่งข้อมูลที่อยู่ใน datasets ดังนี้ <br>
+Video Games Sales datasets เป็นชุดข้อมูลที่รวบรวมข้อมูลเกี่ยวกับเกมคอนโซล มีการจัดแบ่งข้อมูลที่อยู่ใน datasets ดังนี้
 
 dataset นี้ ประกอบไปด้วยเพลงทั้งหมด เกมทั้งหมด 16,598 เกม โดยใช้คำสั่ง `glimpse()` เพื่อใช้ในการตรวจสอบ
 
