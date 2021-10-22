@@ -16,22 +16,21 @@ Video Games Sales datasets นี้เป็นชุดข้อมูลท�
 2. Explore the dataset from the original dataset
 3. Analyze the datasets
 4. Cleaning/Transformation the datasets
-5. Define a question 
-
+5. Define a question
+6. Answer question
 
 ### Tools
 
 1. R language
 2. R Studio Desktop
-3. Microsoft excel 
-
+3. Microsoft excel
 
 ## Table of Contents
 
-1. [Exploratory Data Analysis](./DataExploration.md)
-2. [Data Cleaning](./DataCleaning.md)
-3. [Define Question and Data Analysis](./DataAnalysis.md)
-3. [Data Visualization]() 
+1. [Data Exploration](./DataExploration.md)
+1. [Data Cleaning and Data Transformation](./DataCleaning.md)
+1. [Define Question and Data Analysis](./DataAnalysis.md)
+1. [Data Visualization]()
 
 ## Resources
 
@@ -46,18 +45,19 @@ Video Games Sales datasets นี้เป็นชุดข้อมูลท�
 - https://www.kaggle.com/gregorut/videogamesales
 - https://github.com/safesit23/INT214-Statistics/blob/main/workshop/Summary.md
 
-
 ## About Us
 
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
 
 ### Team: กลุ่มจ้า
-|Name|Student ID|
-|-|-|
-|มนัสสินี เวชวิฐาน|63130500096|
-|รวิศ น้อยวงศ์|63130500100|
-|สิริวัฒก์ ใจยั่งยืน|63130500120|
-|กันตภณ ตันตราภรณ์พงษ์|63130500138|
+
+|No.|Name|Student ID|
+|-|-|-|
+|1|มนัสสินี เวชวิฐาน|63130500096|
+|2|รวิศ น้อยวงศ์|63130500100|
+|3|สิริวัฒก์ ใจยั่งยืน|63130500120|
+|4|กันตภณ ตันตราภรณ์พงษ์|63130500138|
+
 ### Instructor
 
 - ATCHARA TRAN-U-RAIKUL

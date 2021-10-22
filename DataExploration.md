@@ -1,11 +1,15 @@
-# Data Exploration 
+# Data Exploration And
+
 ## Step 1). Define a question
-กลุ่มพวกเราชอบเล่นเกมจึงมีความสนใจและต้องการศึกษาเพิ่มเติมเกี่ยวกับข้อมูลของเกมที่เป็นที่นิยมในขณะนั้นว่า คือ เกมอะไร ประเภทอะไร นิยมขายบนแพลตฟอร์มไหน วางขายในปีที่เท่าไหร่ บริษัทใดทำยอดขายได้มากที่สุด และยอดขายในแต่ละทวีปมีเท่าไหร่ จากข้อมูลที่กล่าวมานั้นจึงทำให้ Video games sales datasets ชุดนี้มีความน่าสนใจในการศึกษาค้นคว้า และนำมาใช้ในการเรียนรู้นั่นเอง
+
+กลุ่มพวกเราชอบเล่นเกมจึงมีความสนใจและต้องการศึกษาเพิ่มเติมเกี่ยวกับข้อมูลของเกมที่เป็นที่นิยมในขณะนั้นว่า คือ เกมอะไร ประเภทอะไร นิยมขายบนแพลตฟอร์มไหน วางขายในปีที่เท่าไหร่ บริษัทใดทำยอดขายได้มากที่สุด และยอดขายในแต่ละทวีปมีเท่าไหร่
 
 ## Step 2). Search datasets from Kaggle
-พวกเราจึงได้หาข้อมูลที่เกี่ยวกับการเก็บข้อมูลต่าง ๆ เกี่ยวกับเกมคอนโซลที่มียอดขายมากกว่า 100,000 ชุดจาก [kaggle](https://www.kaggle.com/gregorut/videogamesales)<br>
+
+พวกเราจึงได้หาข้อมูลที่เกี่ยวกับการเก็บข้อมูลต่าง ๆ เกี่ยวกับเกมคอนโซลที่มียอดขายมากกว่า 100,000 ชุดจาก [kaggle](https://www.kaggle.com/gregorut/videogamesales) <br>
 
 ##### ติดตั้ง Library ที่ใช้
+
 ```R
 install.packages("dplyr")
 install.packages("readr")
@@ -13,7 +17,9 @@ install.packages("stringr")
 install.packages("assertive")
 install.packages("DescTools")
 ```
-##### เรียกใช้ Library 
+
+##### เรียกใช้ Library
+
 ```R
 library(dplyr)
 library(readr)
@@ -23,15 +29,17 @@ library(DescTools)
 ```
 
 และใช้คำสั่ง `read.csv()` เพื่อ import dataset มาเก็บไว้
+
 ```R
 games <- as_tibble(read.csv("https://raw.githubusercontent.com/sit-2021-int214/020-Video-Game-Sales/main/vgsales.csv"))
 ```
 
-
 ## Data Exploration
-Video Games Sales datasets เป็นชุดข้อมูลที่รวบรวมข้อมูลเกี่ยวกับเกมคอนโซล มีการจัดแบ่งข้อมูลที่อยู่ใน datasets ดังนี้<br>
 
-dataset นี้ ประกอบไปด้วยเพลงทั้งหมด เกมทั้งหมด 16,598 เกม โดยใช้คำสั่ง `glimpse()` เพื่อใช้ในการตรวจสอบ 
+Video Games Sales datasets เป็นชุดข้อมูลที่รวบรวมข้อมูลเกี่ยวกับเกมคอนโซล มีการจัดแบ่งข้อมูลที่อยู่ใน datasets ดังนี้ <br>
+
+dataset นี้ ประกอบไปด้วยเพลงทั้งหมด เกมทั้งหมด 16,598 เกม โดยใช้คำสั่ง `glimpse()` เพื่อใช้ในการตรวจสอบ
+
 ```R
 glimpse(games)
 ```
