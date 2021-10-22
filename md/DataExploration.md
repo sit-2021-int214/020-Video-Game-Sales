@@ -3,11 +3,11 @@
 Datasets from: [Video Game Sales](https://www.kaggle.com/gregorut/videogamesales)
 Code : [DataExploration.R](../code/DataExploration.R)
 
-## Step 1). Define a question
+## Step 1) Define a question
 
 กลุ่มพวกเราชอบเล่นเกมจึงมีความสนใจและต้องการศึกษาเพิ่มเติมเกี่ยวกับข้อมูลของเกมที่เป็นที่นิยมในขณะนั้นว่า คือ เกมอะไร ประเภทอะไร นิยมขายบนแพลตฟอร์มไหน วางขายในปีที่เท่าไหร่ บริษัทใดทำยอดขายได้มากที่สุด และยอดขายในแต่ละทวีปมีเท่าไหร่
 
-## Step 2). Search datasets from Kaggle
+## Step 2) Search datasets from Kaggle
 
 พวกเราจึงได้หาข้อมูลที่เกี่ยวกับการเก็บข้อมูลต่าง ๆ เกี่ยวกับเกมคอนโซลที่มียอดขายมากกว่า 100,000 ชุดจาก [kaggle](https://www.kaggle.com/gregorut/videogamesales)
 
