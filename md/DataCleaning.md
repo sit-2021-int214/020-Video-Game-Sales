@@ -3,7 +3,7 @@
 Datasets from: [Video Game Sales](https://www.kaggle.com/gregorut/videogamesales)
 Code : [DataCleaning.R](../code/DataCleaning.R)
 
-### Step 1 : Changing type  (แปลงเป็น factor)
+### Step 1) Changing type  (แปลงเป็น factor)
 
 ```R
 games$Publisher <- as.factor(games$Publisher)
@@ -20,7 +20,7 @@ summary(games$Platform)
 
 ```
 
-### Step 2 : Eliminate the N/A year (ลบ N/A ออก)
+### Step 2) Eliminate the N/A year (ลบ N/A ออก)
 
 ```R
 games <- games %>% filter(Year != "N/A")
