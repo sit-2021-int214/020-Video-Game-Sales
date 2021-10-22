@@ -4,7 +4,7 @@ Datasets from: [Video Game Sales](https://www.kaggle.com/gregorut/videogamesales
 
 ### Step 1 : Changing type  (แปลงเป็น factor)
 
-```{R}
+```R
 games$Publisher <- as.factor(games$Publisher)
 summary(games$Publisher)
 
@@ -21,6 +21,8 @@ summary(games$Platform)
 
 ### Step 2 : Eliminate the N/A year (ลบ N/A ออก)
 
-```{R}
+```R
 games <- games %>% filter(Year != "N/A")
 ```
+
+---

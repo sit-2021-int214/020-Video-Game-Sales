@@ -6,7 +6,7 @@
 พวกเราจึงได้หาข้อมูลที่เกี่ยวกับการเก็บข้อมูลต่าง ๆ เกี่ยวกับเกมคอนโซลที่มียอดขายมากกว่า 100,000 ชุดจาก [kaggle](https://www.kaggle.com/gregorut/videogamesales)<br>
 
 ##### ติดตั้ง Library ที่ใช้
-```${R}
+```R
 install.packages("dplyr")
 install.packages("readr")
 install.packages("stringr")
@@ -14,7 +14,7 @@ install.packages("assertive")
 install.packages("DescTools")
 ```
 ##### เรียกใช้ Library 
-```${R}
+```R
 library(dplyr)
 library(readr)
 library(stringr)
@@ -23,7 +23,7 @@ library(DescTools)
 ```
 
 และใช้คำสั่ง `read.csv()` เพื่อ import dataset มาเก็บไว้
-```{R}
+```R
 games <- as_tibble(read.csv("https://raw.githubusercontent.com/sit-2021-int214/020-Video-Game-Sales/main/vgsales.csv"))
 ```
 
@@ -32,11 +32,11 @@ games <- as_tibble(read.csv("https://raw.githubusercontent.com/sit-2021-int214/0
 Video Games Sales datasets เป็นชุดข้อมูลที่รวบรวมข้อมูลเกี่ยวกับเกมคอนโซล มีการจัดแบ่งข้อมูลที่อยู่ใน datasets ดังนี้<br>
 
 dataset นี้ ประกอบไปด้วยเพลงทั้งหมด เกมทั้งหมด 16,598 เกม โดยใช้คำสั่ง `glimpse()` เพื่อใช้ในการตรวจสอบ 
-```{R}
+```R
 glimpse(games)
 ```
 ผลลัพธ์
-```{txt}
+```txt
 Rows: 16,598
 Columns: 11
 $ Rank         <int> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20~
