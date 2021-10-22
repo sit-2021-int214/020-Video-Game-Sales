@@ -16,7 +16,7 @@ library(DescTools)
 
 #Step 2. Loading datasets
 
-games <- as_tibble(read.csv("C:/Users/HP/OneDrive/เอกสาร/R-int124/vgsales.csv"))
+games <- as_tibble(read.csv("https://raw.githubusercontent.com/sit-2021-int214/020-Video-Game-Sales/main/vgsales.csv"))
 glimpse(games)
 
 #Step 3. Changing type (แปลงเป็น factor)
