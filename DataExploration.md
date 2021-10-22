@@ -5,7 +5,15 @@
 ## Step 2). Search datasets from Kaggle
 พวกเราจึงได้หาข้อมูลที่เกี่ยวกับการเก็บข้อมูลต่าง ๆ เกี่ยวกับเกมคอนโซลที่มียอดขายมากกว่า 100,000 ชุดจาก [kaggle](https://www.kaggle.com/gregorut/videogamesales)<br>
 
-##### Library ที่ใช้
+##### ติดตั้ง Library ที่ใช้
+```${R}
+install.packages("dplyr")
+install.packages("readr")
+install.packages("stringr")
+install.packages("assertive")
+install.packages("DescTools")
+```
+##### เรียกใช้ Library 
 ```${R}
 library(dplyr)
 library(readr)
