@@ -43,42 +43,42 @@ games <- games %>% filter(Year != "N/A")
 
 #คำสั่ง
 games %>%
-  +  	group_by(Genre) %>%
-  +  	summarize(max_globalsales = max(Global_Sales))
+group_by(Genre) %>%
+summarize(max_globalsales = max(Global_Sales))
 
 #2. บริษัทใดมียอดขายรวมกันเยอะที่สุด
 
 #คำสั่ง
 games %>%
-  +   	group_by(Publisher) %>%
-  +   	summarize(max_globalsales = max(Global_Sales)) %>% 
-  +   	arrange(desc(max_globalsales))
+group_by(Publisher) %>%
+summarize(max_globalsales = max(Global_Sales)) %>% 
+arrange(desc(max_globalsales))
 
 #3. บริษัทที่มียอดขายมากที่สุดในแต่ละทวีป
 
 #คำสั่ง(NA_Sales)
 games %>%
-  +   group_by(Publisher) %>%
-  +   summarize(max_NAsales = max(NA_Sales)) %>% 
-  +   arrange(desc(max_NAsales))
+group_by(Publisher) %>%
+summarize(max_NAsales = max(NA_Sales)) %>% 
+arrange(desc(max_NAsales))
 
 #คำสั่ง(EU_Sales)
 games %>%
-  +   group_by(Publisher) %>%
-  +   summarize(max_EUsales = max(EU_Sales)) %>% 
-  +   arrange(desc(max_EUsales))
+group_by(Publisher) %>%
+summarize(max_EUsales = max(EU_Sales)) %>% 
+arrange(desc(max_EUsales))
 
 #คำสั่ง(JP_Sales)
 games %>%
-  +   group_by(Publisher) %>%
-  +   summarize(max_JPsales = max(JP_Sales)) %>% 
-  +   arrange(desc(max_JPsales))
+group_by(Publisher) %>%
+summarize(max_JPsales = max(JP_Sales)) %>% 
+arrange(desc(max_JPsales))
 
 #4. แพลตฟอร์มไหนมียอดขายเกมทุกเกมรวมกันมากที่สุด
 #คำสั่ง
 sumByPlatform <- games %>% 
-  +     group_by(Platform) %>% 
-  +     summarise(Total_Sale = sum(Global_Sales))
+group_by(Platform) %>% 
+summarise(Total_Sale = sum(Global_Sales))
 
 sumByPlatform %>% filter(Total_Sale == max(Total_Sale)) %>% select(Platform)
 
@@ -89,14 +89,14 @@ games %>% filter(Global_Sales== max(Global_Sales)) %>% select(Name)
 #6. ในทุก ๆ ปี มียอดขายรวมกันมากที่สุดเท่าไร
 #คำสั่ง
 games %>%
-  +   group_by(Year) %>%
-  +   summarize(max_globalsales = max(Global_Sales))
+group_by(Year) %>%
+summarize(max_globalsales = max(Global_Sales))
 
 #7. ปีที่มียอดขายเกมรวมกันมากที่สุดคือปีอะไร 
 #คำสั่ง
 sumByYear <- games %>%  
-  +   group_by(Year) %>% 
-  +   summarise(Total_Sale = sum(Global_Sales))
+group_by(Year) %>% 
+summarise(Total_Sale = sum(Global_Sales))
 
 #8. เกมส่วนใหญ่เป็นเกมประเภทอะไร
 #คำสั่ง
