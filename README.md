@@ -29,8 +29,8 @@ Video Games Sales datasets นี้เป็นชุดข้อมูลท�
 ## Table of Contents
 
 1. [Exploratory Data Analysis](./DataExploration.md)
-2. [Data Cleaning]()
-3. [Data Analysis]()
+2. [Data Cleaning](./DataCleaning.md)
+3. [Define Question and Data Analysis](./DataAnalysis.md)
 3. [Data Visualization]() 
 
 ## Resources

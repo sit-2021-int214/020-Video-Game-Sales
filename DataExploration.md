@@ -16,7 +16,7 @@ library(DescTools)
 
 และใช้คำสั่ง `read.csv()` เพื่อ import dataset มาเก็บไว้
 ```{R}
-games <- as_tibble(read.csv("pathToFile/vgsales.csv"))
+games <- as_tibble(read.csv("https://raw.githubusercontent.com/sit-2021-int214/020-Video-Game-Sales/main/vgsales.csv"))
 ```
 
 
@@ -59,3 +59,5 @@ $ Global_Sales <dbl> 82.74, 40.24, 35.82, 33.00, 31.37, 30.26, 30.01, 29.02, 28.
 | JP_Sales     | เป็นยอดขายที่อยู่ในญี่ปุ่น (Japan)              | Quantitative                   |
 | Other_sales  | เป็นยอดขายส่วนที่เหลือ                          | Quantitative                   |
 | Global_sales | เป็นยอดขายทั้งโลกรวมกัน                         | Quantitative                   |
+
+---
