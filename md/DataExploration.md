@@ -1,4 +1,7 @@
-# Data Exploration And
+# Data Exploration
+
+Datasets from: [Video Game Sales](https://www.kaggle.com/gregorut/videogamesales)
+Code : [DataExploration.R](../code/DataExploration.R)
 
 ## Step 1). Define a question
 
@@ -43,7 +46,9 @@ dataset นี้ ประกอบไปด้วยเพลงทั้ง�
 ```R
 glimpse(games)
 ```
+
 ผลลัพธ์
+
 ```txt
 Rows: 16,598
 Columns: 11

@@ -1,6 +1,7 @@
 # Data Cleaning and Data Transformation
 
 Datasets from: [Video Game Sales](https://www.kaggle.com/gregorut/videogamesales)
+Code : [DataCleaning.R](../code/DataCleaning.R)
 
 ### Step 1 : Changing type  (แปลงเป็น factor)
 
