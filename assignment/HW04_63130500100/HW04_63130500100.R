@@ -53,4 +53,3 @@ ggplot(com_science,aes(x=Type)) + geom_bar()
 
 #¡ÃÒ¿áÊ´§Ë¹Ñ§Ê×Í·ÕèÁÕ¨Ó¹Ç¹Ë¹éÒÁÒ¡¡ÇèÒ 1500 Ë¹éÒ
 com_science %>% filter(Number_Of_Pages > 1500) %>% ggplot(aes(x=Book_title, y=Number_Of_Pages))+geom_point()+ggtitle("Amount of Page more than 1500")
-
