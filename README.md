@@ -24,6 +24,7 @@ Video Games Sales datasets นี้เป็นชุดข้อมูลท�
 1. R language
 2. R Studio Desktop
 3. Microsoft excel
+4. MS Power BI
 
 ## Table of Contents
 
