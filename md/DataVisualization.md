@@ -118,16 +118,14 @@ The games have 579 publisher.
 
 ---
 
-![img8](../assets/images/BI_Final_Page_08.png)
+![img8]()
 
 ```txt
 Top 10 of Europe Sales in Publisher
 Nintendo is the best sales publisher in Europe.
 
----
 Top 10 of Japan Sales in Publisher
- is the best sales publisher in Japan.
----
+Nintendo is the best sales publisher in Japan.
 
 Maximum of Europe Sales
 29.02 millions.
@@ -138,15 +136,14 @@ Maximum of Japan Sales
 
 ---
 
-![img9](../assets/images/BI_Final_Page_09.png)
+![img9]()
 
 ```txt
-ผิด
 Top 10 of North America Sales in Publisher
- is the best sales publisher in North America.
+Nintendo is the best sales publisher in North America.
 
 Top 10 of Other Sales in Publisher
- is the best sales publisher in Other.
+Electronic Arts is the best sales publisher in Other.
 
 Maximum of North America Sales
 41.49 millions.
