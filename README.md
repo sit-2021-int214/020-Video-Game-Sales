@@ -31,6 +31,7 @@ Video Games Sales datasets นี้เป็นชุดข้อมูลท�
 1. [Data Cleaning and Data Transformation](./md/DataCleaning.md)
 1. [Define Question and Data Analysis](./md/DataAnalysis.md)
 1. [Data Visualization](./md/DataVisualization.md)
+1. [Hypothesis Testing](./md/HypothesisTesting.md)
 
 ## Resources
 
