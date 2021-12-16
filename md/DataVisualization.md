@@ -118,7 +118,7 @@ The games have 579 publisher.
 
 ---
 
-![img8]()
+![img8](../assets/images/BI_Final_Page_08.png)
 
 ```txt
 Top 10 of Europe Sales in Publisher
@@ -136,7 +136,7 @@ Maximum of Japan Sales
 
 ---
 
-![img9]()
+![img9](../assets/images/BI_Final_Page_09.png)
 
 ```txt
 Top 10 of North America Sales in Publisher
